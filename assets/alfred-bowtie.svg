@@ -1,0 +1,23 @@
+<svg viewBox="0 0 132 74" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bow tie">
+  <defs>
+    <linearGradient id="btWing" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a4a4a"/>
+      <stop offset="0.45" stop-color="#1d1d1d"/>
+      <stop offset="1" stop-color="#020202"/>
+    </linearGradient>
+    <linearGradient id="btKnot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3a3a"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+  <!-- left wing -->
+  <path d="M61 37 L18 16 Q7 11 7 23 L7 51 Q7 63 18 58 L61 37 Z" fill="url(#btWing)"/>
+  <!-- right wing -->
+  <path d="M71 37 L114 16 Q125 11 125 23 L125 51 Q125 63 114 58 L71 37 Z" fill="url(#btWing)"/>
+  <!-- subtle wing highlights -->
+  <path d="M55 37 L22 22 Q14 19 14 26 L14 31 L55 37 Z" fill="#5a5a5a" opacity="0.35"/>
+  <path d="M77 37 L110 22 Q118 19 118 26 L118 31 L77 37 Z" fill="#5a5a5a" opacity="0.35"/>
+  <!-- center knot -->
+  <rect x="58" y="23" width="16" height="28" rx="6" fill="url(#btKnot)"/>
+  <rect x="61" y="26" width="3.4" height="22" rx="1.7" fill="#5e5e5e" opacity="0.45"/>
+</svg>
