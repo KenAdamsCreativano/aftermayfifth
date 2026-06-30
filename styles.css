@@ -472,7 +472,7 @@ button {
 
 .section-title {
   max-width: 760px;
-  margin-bottom: 42px;
+  margin-bottom: 56px;
 }
 
 .principles-grid {
@@ -629,7 +629,7 @@ button {
 
 .alfred-refined {
   display: grid;
-  gap: clamp(38px, 6vw, 72px);
+  gap: 42px;
 }
 
 .alfred-intro {
@@ -644,10 +644,10 @@ button {
   display: inline-block;
   height: 0.64em;
   width: auto;
-  margin-left: 0.24em;
+  margin-left: 0.16em;
   vertical-align: baseline;
   position: relative;
-  top: -0.1em;
+  top: 0.04em;
 }
 
 .alfred-intro p:not(.eyebrow) {
@@ -968,7 +968,7 @@ button {
 }
 .people-intro {
   max-width: none;
-  margin-bottom: 52px;
+  margin-bottom: 56px;
 }
 .people-intro h2 {
   margin-bottom: 26px;
@@ -977,7 +977,8 @@ button {
 }
 /* Intro paragraph stays readable but spans with the layout */
 .people-intro p {
-  max-width: 940px;
+  max-width: 720px;
+  text-wrap: balance;
 }
 .group-label {
   margin: 0 0 16px;
